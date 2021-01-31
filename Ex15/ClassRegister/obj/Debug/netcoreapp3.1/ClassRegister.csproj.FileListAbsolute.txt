@@ -1,0 +1,13 @@
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\bin\Debug\netcoreapp3.1\ClassRegister.exe
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\bin\Debug\netcoreapp3.1\ClassRegister.deps.json
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\bin\Debug\netcoreapp3.1\ClassRegister.runtimeconfig.json
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\bin\Debug\netcoreapp3.1\ClassRegister.runtimeconfig.dev.json
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\bin\Debug\netcoreapp3.1\ClassRegister.dll
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\bin\Debug\netcoreapp3.1\ClassRegister.pdb
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\obj\Debug\netcoreapp3.1\ClassRegister.csprojAssemblyReference.cache
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\obj\Debug\netcoreapp3.1\ClassRegister.AssemblyInfoInputs.cache
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\obj\Debug\netcoreapp3.1\ClassRegister.AssemblyInfo.cs
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\obj\Debug\netcoreapp3.1\ClassRegister.csproj.CoreCompileInputs.cache
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\obj\Debug\netcoreapp3.1\ClassRegister.dll
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\obj\Debug\netcoreapp3.1\ClassRegister.pdb
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex15\ClassRegister\obj\Debug\netcoreapp3.1\ClassRegister.genruntimeconfig.cache

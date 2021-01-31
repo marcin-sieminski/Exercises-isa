@@ -1,0 +1,15 @@
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\obj\Debug\netcoreapp3.1\Ex9.csprojAssemblyReference.cache
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\obj\Debug\netcoreapp3.1\Ex9.AssemblyInfoInputs.cache
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\obj\Debug\netcoreapp3.1\Ex9.AssemblyInfo.cs
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\obj\Debug\netcoreapp3.1\Ex9.csproj.CoreCompileInputs.cache
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\bin\Debug\netcoreapp3.1\Ex9.exe
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\bin\Debug\netcoreapp3.1\Ex9.deps.json
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\bin\Debug\netcoreapp3.1\Ex9.runtimeconfig.json
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\bin\Debug\netcoreapp3.1\Ex9.runtimeconfig.dev.json
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\bin\Debug\netcoreapp3.1\Ex9.dll
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\bin\Debug\netcoreapp3.1\Ex9.pdb
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\obj\Debug\netcoreapp3.1\Ex9.csproj.CopyComplete
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\obj\Debug\netcoreapp3.1\Ex9.dll
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\obj\Debug\netcoreapp3.1\Ex9.pdb
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex9\Ex9\obj\Debug\netcoreapp3.1\Ex9.genruntimeconfig.cache

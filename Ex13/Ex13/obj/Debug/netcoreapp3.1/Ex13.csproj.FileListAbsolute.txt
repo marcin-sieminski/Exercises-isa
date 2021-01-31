@@ -1,0 +1,8 @@
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex13\Ex13\obj\Debug\netcoreapp3.1\Ex13.csprojAssemblyReference.cache
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex13\Ex13\obj\Debug\netcoreapp3.1\Ex13.AssemblyInfoInputs.cache
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex13\Ex13\obj\Debug\netcoreapp3.1\Ex13.AssemblyInfo.cs
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex13\Ex13\obj\Debug\netcoreapp3.1\Ex13.csproj.CoreCompileInputs.cache
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex13\Ex13\obj\Debug\netcoreapp3.1\Ex13.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex13\Ex13\obj\Debug\netcoreapp3.1\Ex13.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex13\Ex13\obj\Debug\netcoreapp3.1\Ex13.RazorAssemblyInfo.cache
+C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex13\Ex13\obj\Debug\netcoreapp3.1\Ex13.RazorAssemblyInfo.cs

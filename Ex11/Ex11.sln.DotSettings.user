@@ -1,0 +1,26 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1406c843_002D5fb5_002D4960_002D9b52_002D9bff8bef1d78/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Two #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4DC66295-A654-44DF-BF65-3E41D535B74A::.NETCoreApp,Version=v3.1::Ex11.Challenges.Two&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4b520046_002De56f_002D4fc5_002Db6ba_002Dd5843d734ac6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Two" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4DC66295-A654-44DF-BF65-3E41D535B74A::.NETCoreApp,Version=v3.1::Ex11.Challenges.Two&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8f222f65_002D8c28_002D4e6f_002Dbea9_002D8fe6526cd4aa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Challenges" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4DC66295-A654-44DF-BF65-3E41D535B74A::.NETCoreApp,Version=v3.1::Ex11.Challenges&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e1f9f5af_002D5ad5_002D4680_002D99bf_002D82e920ee6de2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Challenges #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4DC66295-A654-44DF-BF65-3E41D535B74A::.NETCoreApp,Version=v3.1::Ex11.Challenges&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea779343_002D46e0_002D461d_002D9c2b_002D48b5fae8321a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Challenges #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4DC66295-A654-44DF-BF65-3E41D535B74A::.NETCoreApp,Version=v3.1::Ex11.Challenges&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
