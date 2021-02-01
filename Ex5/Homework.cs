@@ -26,8 +26,9 @@ namespace Ex5
             string[] words = new[] {"Ala", "ma", "kota", "beata", "ameba", "Amanda", "Albert"};
 
             //Wynik: Ala ameba Amanda
-            var e2Result = words.Where(x => x.StartsWith("a", StringComparison.InvariantCultureIgnoreCase))
-                .Where(x => x.EndsWith("a", StringComparison.CurrentCultureIgnoreCase)).ToList();
+            var e2Result = words
+                .Where(x => x.StartsWith("a", StringComparison.InvariantCultureIgnoreCase) && x.EndsWith("a", StringComparison.CurrentCultureIgnoreCase))
+                .ToList();
             
             PrintResultOnConsole(e2Result, 2);
         }
@@ -50,7 +51,7 @@ namespace Ex5
             string[] numbersAsStrings = new[] {"1", "2", "3", "4"};
 
             //WyniK:  10 : int
-            var e4Result = numbersAsStrings.Aggregate(0,(sum, x) => sum + int.Parse(x));
+            var e4Result = numbersAsStrings.Sum(int.Parse);
 
             PrintResultOnConsole(e4Result.ToString(), 4);
         }

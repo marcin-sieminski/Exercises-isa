@@ -2,6 +2,6 @@
 {
     public interface IProcessor
     {
-        public string ProcessText(string textToProcess);
+        string ProcessText(string textToProcess);
     }
 }

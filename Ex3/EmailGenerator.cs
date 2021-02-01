@@ -4,7 +4,7 @@ namespace Ex3
 {
     public static class EmailGenerator
     {
-        public static string GenerateEmail(string firstName, string lastName, string emailDomain, List<UserAccount> usersList)
+        public static string GenerateEmail(string firstName, string lastName, string emailDomain, IEnumerable<UserAccount> usersList)
         {
             var nameString = firstName.ToLower().Substring(0, 2) + lastName.ToLower().Substring(0, 2);
             var domainString = emailDomain;
@@ -12,11 +12,9 @@ namespace Ex3
             var numberToAdd = 1;
             foreach (var userAccount in usersList)
             {
-                if (userAccount.Email == email)
-                {
-                    email = nameString + numberToAdd + domainString;
-                    numberToAdd++;
-                }
+                if (userAccount.Email != email) continue;
+                email = nameString + numberToAdd + domainString;
+                numberToAdd++;
             }
             return email;
         }

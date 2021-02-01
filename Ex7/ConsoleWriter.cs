@@ -2,7 +2,7 @@
 
 namespace Ex7
 {
-    class ConsoleWriter : IWriter
+    public class ConsoleWriter : IWriter
     {
         public void Write(string textToWrite)
         {

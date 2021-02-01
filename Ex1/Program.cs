@@ -4,17 +4,17 @@ namespace Ex1
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            bool repeat = true;
-            bool correctInput = true;
+            var repeat = true;
+            var correctInput = true;
             decimal? memory = null;
-            int numberOfOperands = 2;
+            const int numberOfOperands = 2;
 
             do
             {
                 Console.Clear();
-                Console.WriteLine("Advanced Calculator v1.0");
+                Console.WriteLine("Simple Calculator v1.0");
                 Console.WriteLine("Enter 'm' to add value to memory or use memorized value.");
                 Console.WriteLine();
 

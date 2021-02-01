@@ -1,6 +1,6 @@
 ﻿namespace Ex7
 {
-    class LowercaseProcessor : IProcessor
+    public class LowercaseProcessor : IProcessor
     {
         public string ProcessText(string textToProcess)
         {

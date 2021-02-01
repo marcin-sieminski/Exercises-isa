@@ -4,7 +4,7 @@ namespace Ex5
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Homework 5");
             var homeworkObject = new Homework();

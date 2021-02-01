@@ -1,23 +1,12 @@
 ﻿using System;
-using System.Threading;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace Ex2
 {
     public class Timer
     {
-        public int CountdownTime { get; private set; }
-
-        public Timer()
-        {
-
-        }
-
-        public Timer(int seconds)
-        {
-            CountdownTime = seconds;
-            TimerCount(CountdownTime);
-        }
+        private int CountdownTime { get; set; }
 
         public void StartTimer()
         {
@@ -44,11 +33,11 @@ namespace Ex2
 
         private void TimerCount(in int timeSeconds)
         {
-            TimeSpan time = TimeSpan.FromSeconds(timeSeconds);
+            var time = TimeSpan.FromSeconds(timeSeconds);
             Console.WriteLine($"\nTime to countdown (M:S): {time:mm\\:ss}. Countdown started:\n");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.CursorVisible = false;
-            for (int i = 0; i <= timeSeconds; i++)
+            for (var i = 0; i <= timeSeconds; i++)
             {
                 Console.Write($"{TimeSpan.FromSeconds(timeSeconds - i):mm\\:ss}\r");
                 Thread.Sleep(1000); 
@@ -60,7 +49,7 @@ namespace Ex2
             Console.CursorVisible = true;
         }
 
-        private int SetTime()
+        private static int SetTime()
         {
             Console.Clear();
             Console.WriteLine("Welcome to TIMER!");
@@ -117,16 +106,16 @@ namespace Ex2
             }
         }
 
-        private void PlaySound()
+        private static void PlaySound()
         {
-            for (int j = 1; j <= 2; j++)
+            for (var j = 1; j <= 2; j++)
             {
-                for (int i = 1; i <= 3; i++)
+                for (var i = 1; i <= 3; i++)
                 {
                     Console.Beep(1500,400);
                     Thread.Sleep(50);
                 }
-                for (int i = 1; i < 4; i++)
+                for (var i = 1; i < 4; i++)
                 {
                     Console.Beep(2000,400);
                     Thread.Sleep(50);

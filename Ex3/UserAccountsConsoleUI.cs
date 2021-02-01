@@ -5,8 +5,8 @@ namespace Ex3
 {
     internal class UserAccountsConsoleUi
     {
-        public static DateTime ApplicationStartDateTime { get; private set; }
-        public List<UserAccount> UsersList { get; } = new List<UserAccount>();
+        private static DateTime ApplicationStartDateTime { get; set; }
+        private List<UserAccount> UsersList { get; } = new List<UserAccount>();
         private bool _runApplication;
 
         public UserAccountsConsoleUi()
@@ -104,7 +104,7 @@ namespace Ex3
             foreach (var userAccount in UsersList)
             {
                 
-                Console.WriteLine($"{(currentUserNumber++.ToString()+ ".").PadRight(4)}{userAccount.FirstName.PadRight(13)}{userAccount.LastName.PadRight(20)}{userAccount.Email.PadRight(25)}{userAccount.Age.ToString().PadRight(8)}{userAccount.IsActive.ToString().PadRight(10)}{userAccount.Password.PadRight(35)}");
+                Console.WriteLine($"{currentUserNumber+++ ".",-4}{userAccount.FirstName,-13}{userAccount.LastName,-20}{userAccount.Email,-25}{userAccount.Age,-8}{userAccount.IsActive,-10}{userAccount.Password,-35}");
             }
             Console.WriteLine("\nPress any key to continue.");
             Console.ReadKey();

@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace Ex2
+﻿namespace Ex2
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var timer = new Timer();
             timer.StartTimer();

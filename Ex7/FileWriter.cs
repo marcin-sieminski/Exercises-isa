@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Ex7
 {
-    class FileWriter : IWriter
+    public class FileWriter : IWriter
     {
         public void Write(string textToWrite)
         {

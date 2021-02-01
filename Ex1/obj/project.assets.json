@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\ExercisesISA\\Ex1\\Ex1.csproj",
+      "projectUniqueName": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex1\\Ex1.csproj",
       "projectName": "Ex1",
-      "projectPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\ExercisesISA\\Ex1\\Ex1.csproj",
+      "projectPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex1\\Ex1.csproj",
       "packagesPath": "C:\\Users\\mrcn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\ExercisesISA\\Ex1\\obj\\",
+      "outputPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

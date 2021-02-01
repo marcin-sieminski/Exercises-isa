@@ -5,17 +5,17 @@ namespace Ex6
 {
     public class AssignmentsQueue
     {
-        public Queue<Assignment> assignmentsQueue;
+        public Queue<Assignment> Assignments;
 
         public AssignmentsQueue()
         {
-            assignmentsQueue = new Queue<Assignment>();
+            Assignments = new Queue<Assignment>();
         }
 
         public void Run()
         {
-            Console.WriteLine($"Number of assignments in queue: {assignmentsQueue.Count}\n");
-            while (assignmentsQueue.Count > 0)
+            Console.WriteLine($"Number of assignments in queue: {Assignments.Count}\n");
+            while (Assignments.Count > 0)
             {
                 ProcessCurrentAssignment();
             }
@@ -25,11 +25,11 @@ namespace Ex6
 
         private void ProcessCurrentAssignment()
         {
-            var currentAssignment = assignmentsQueue.Peek();
+            var currentAssignment = Assignments.Peek();
             Console.WriteLine($"Processing: {currentAssignment.AssignmentSubject}");
             Console.WriteLine($"Time from creation to processing: {(DateTime.UtcNow - currentAssignment.AssignmentStartDate).Milliseconds} milliseconds");
             Console.WriteLine($"Assignment created: {currentAssignment.AssignmentStartDate.ToLocalTime()} (local time)\n");
-            assignmentsQueue.Dequeue();
+            Assignments.Dequeue();
         }
     }
 }

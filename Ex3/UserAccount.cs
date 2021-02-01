@@ -4,13 +4,13 @@ namespace Ex3
 {
     public class UserAccount
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string FirstName { get; }
+        public string LastName { get; }
         private int _age;
         public int Age
         {
             get => _age;
-            set
+            private set
             {
                 if (value >= 18 && value <= 65)
                 {
@@ -25,7 +25,7 @@ namespace Ex3
 
         public string Email { get; }
         public string Password { get; }
-        public bool IsActive { get; set; }
+        public bool IsActive { get; }
 
         public UserAccount(string firstName, string lastName, int age, string email)
         {

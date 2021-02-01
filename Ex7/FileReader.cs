@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Ex7
 {
-    class FileReader : IReader
+    public class FileReader : IReader
     {
         public string ReadText()
         {

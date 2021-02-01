@@ -13,11 +13,11 @@ namespace Ex6
                 Path = @"c:\Temp\homework\datastructures\", 
                 FileName = "assignments.xml"
             };
-            fileOperations.CreateFileXml(fileOperations.Path, fileOperations.FileName, assignmentsList.assignmentsList);
+            fileOperations.CreateFileXml(fileOperations.Path, fileOperations.FileName, assignmentsList.Assignments);
 
             var assignmentsQueue = new AssignmentsQueue
             {
-                assignmentsQueue = fileOperations.LoadFileXmlToQueue(fileOperations.Path, fileOperations.FileName)
+                Assignments = fileOperations.LoadFileXmlToQueue(fileOperations.Path, fileOperations.FileName)
             };
             assignmentsQueue.Run();
 

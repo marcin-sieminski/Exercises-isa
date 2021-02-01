@@ -4,14 +4,14 @@ namespace Ex7
 {
     public class ExampleTextProcessor
     {
-        public string ProcessedText { get; private set; }
+        private string ProcessedText { get; set; }
 
         public ExampleTextProcessor()
         {
             Initialize();
         }
 
-        private void Initialize()
+        private static void Initialize()
         {
             Console.Clear();
             Console.WriteLine("\n-------------------------------------\n");
@@ -24,16 +24,12 @@ namespace Ex7
             Console.WriteLine("Please choose a source of text to process:");
             Console.WriteLine("1. Input from the console");
             Console.WriteLine("2. File");
-            IReader reader = null;
-            switch (Console.ReadLine())
+            IReader reader = Console.ReadLine() switch
             {
-                case "1":
-                    reader = new ConsoleReader();
-                    break;
-                case "2":
-                    reader = new FileReader();
-                    break;
-            }
+                "1" => new ConsoleReader(),
+                "2" => new FileReader(),
+                _ => null
+            };
             ProcessedText = reader?.ReadText();
         }
 
@@ -42,16 +38,12 @@ namespace Ex7
             Console.WriteLine("\nPlease choose a processing method:");
             Console.WriteLine("1. All uppercase");
             Console.WriteLine("2. All lowercase");
-            IProcessor processor = null;
-            switch (Console.ReadLine())
+            IProcessor processor = Console.ReadLine() switch
             {
-                case "1":
-                    processor = new UppercaseProcessor();
-                    break;
-                case "2":
-                    processor = new LowercaseProcessor();
-                    break;
-            }
+                "1" => new UppercaseProcessor(),
+                "2" => new LowercaseProcessor(),
+                _ => null
+            };
             ProcessedText = processor?.ProcessText(ProcessedText);
         }
 
@@ -60,16 +52,12 @@ namespace Ex7
             Console.WriteLine("Please choose a destination to write processed text:");
             Console.WriteLine("1. Console");
             Console.WriteLine("2. File");
-            IWriter writer = null;
-            switch (Console.ReadLine())
+            IWriter writer = Console.ReadLine() switch
             {
-                case "1":
-                    writer = new ConsoleWriter();
-                    break;
-                case "2":
-                    writer = new FileWriter();
-                    break;
-            }
+                "1" => new ConsoleWriter(),
+                "2" => new FileWriter(),
+                _ => null
+            };
             writer?.Write(ProcessedText);
         }
     }
