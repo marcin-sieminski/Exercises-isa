@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MwYnO/SbnxXNSgvVSOJCdHtM/N4QV/i554aW+JrpmFDEYl+3Tkj99XkesmzxUgkhuVkNyqYLnW+22KC5SVj9hg==",
+  "dgSpecHash": "80FwKt6GGf26ygOrDoHl3G9ykDnEuZTkBTKRYyS7O9+zWRgHoS5P+0EhPcBhypySftwGFxeadfKyPRJYG/gpdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex8\\Ex8\\Ex8.csproj",
+  "projectFilePath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex8\\Ex8\\Ex8.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrcn\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\mrcn\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

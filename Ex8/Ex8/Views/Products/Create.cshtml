@@ -1,6 +1,7 @@
-﻿@model Product
+﻿@using Ex8.Services
+@model Product
 
-@inject Ex8.Logic.IProductsService ProductsService
+@inject IProductsService ProductsService
 
 @{
     ViewBag.Title = "Add product";

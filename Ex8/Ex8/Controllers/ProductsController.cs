@@ -1,5 +1,5 @@
-﻿using Ex8.Logic;
-using Ex8.Models;
+﻿using Ex8.Models;
+using Ex8.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 

@@ -1,7 +1,7 @@
 ﻿using Ex8.Models;
 using System.Collections.Generic;
 
-namespace Ex8.Logic
+namespace Ex8.Services
 {
     public interface IProductsService
     {

@@ -10,7 +10,7 @@ namespace Ex8.Models
         public string Name { get; set; }
         [MaxLength(100)]
         public string Description { get; set; }
-        [Range(0, Int32.MaxValue)]
+        [Range(0, int.MaxValue)]
         public double Price { get; set; }
     }
 }

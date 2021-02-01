@@ -1,4 +1,4 @@
-namespace Ex8.Models
+namespace Ex8.ViewModels
 {
     public class ErrorViewModel
     {
