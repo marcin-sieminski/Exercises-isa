@@ -7,11 +7,9 @@ namespace Ex9
 	{
 		static async Task Main(string[] args)
 		{
-			var service = new Service();
+            const int episodeId = 1;
 
-			var episodeId = 1;
-
-			var task = service.GetStarWarsEpisodeIntroductionAsync(episodeId);
+			var task = Service.GetStarWarsEpisodeIntroductionAsync(episodeId);
 
 			Console.WriteLine("Waiting for film data ...");
 

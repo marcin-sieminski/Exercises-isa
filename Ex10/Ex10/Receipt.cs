@@ -59,14 +59,7 @@ namespace Ex10
 
         public int CalculateTotalCost()
         {
-            var totalPrice = 0;
-
-            foreach (var line in _lines)
-            {
-                totalPrice = totalPrice + line.Number * line.PriceInUsd;
-            }
-
-            return totalPrice;
+            return _lines.Aggregate(0, (current, line) => current + line.Number * line.PriceInUsd);
         }
     }
 }

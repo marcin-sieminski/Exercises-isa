@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XYYNQUMqnF25S5TjJWyxu2sSv+xTz2IHZoAm18EVkZKw8dkMIzoY+M6r4EDlMkYpl2dWr7ubiN7pX1pJWiXIfA==",
+  "dgSpecHash": "CUPKUy8T91yI4aA4QIu1Bwk5PI4vrDxRCjplfmNQccWJLo2e5XHSrTMydWH8MzI4gOTgl6LMX450pnNxbn8hUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex9\\Ex9\\Ex9.csproj",
+  "projectFilePath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex9\\Ex9\\Ex9.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrcn\\.nuget\\packages\\restsharp\\106.11.5\\restsharp.106.11.5.nupkg.sha512"
   ],

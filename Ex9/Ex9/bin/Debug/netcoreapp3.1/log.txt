@@ -3,3 +3,6 @@
 19/09/2020 09:51:13 - Looking for film with id 1
 19/09/2020 09:51:28 - Looking for film with id 1
 19/09/2020 09:51:35 - Looking for film with id 1
+02/02/2021 08:12:35 - Looking for film with id 1
+02/02/2021 08:12:50 - Looking for film with id 1
+02/02/2021 08:13:01 - Looking for film with id 1

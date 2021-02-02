@@ -9,9 +9,9 @@ namespace Ex9
 {
     public class Service
 	{
-        public async Task<Film> GetStarWarsEpisodeIntroductionAsync(int episodeId)
+        public static async Task<Film> GetStarWarsEpisodeIntroductionAsync(int episodeId)
         {
-            await File.AppendAllTextAsync("log.txt", $"{DateTime.Now:G} - Looking for film with id {episodeId}\n");
+            var appendAllTextTask = File.AppendAllTextAsync("log.txt", $"{DateTime.Now:G} - Looking for film with id {episodeId}\n");
 
             var filmData = await GetFilmByEpisodeId(episodeId);
 
@@ -25,10 +25,12 @@ namespace Ex9
                 PropertyNameCaseInsensitive = true,
             };
 
+            await appendAllTextTask;
+
             return JsonSerializer.Deserialize<Film>(filmData.Content, options);
         }
 
-		private Task<IRestResponse> GetFilmByEpisodeId(int id)
+		private static Task<IRestResponse> GetFilmByEpisodeId(int id)
 		{
 			var client = new RestClient($"http://swapi.dev/api/films/{id}/");
 

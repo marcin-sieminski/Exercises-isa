@@ -99,10 +99,30 @@ namespace ReceiptTests
         {
             var sut = new Receipt();
             void ReverseLastLineWhenEmpty() => sut.ReverseLastLine();
-
             var exception = Assert.Throws<InvalidOperationException>(ReverseLastLineWhenEmpty);
-
             Assert.Contains("There is no lines. Nothing to reverse", exception.Message);
+        }
+
+        [Theory]
+        [InlineData(0)]
+        [InlineData(-1)]
+        public void Throw_When_NumberOfItems_Is_Null_Or_Negative(int numberOfItems)
+        {
+            var sut = new Receipt();
+            void RecordLineWithInvalidQuantity() => sut.RecordLine("eggs", numberOfItems, 3);
+            var exception = Assert.Throws<InvalidOperationException>(RecordLineWithInvalidQuantity);
+            Assert.Contains($"You can't add line with {numberOfItems} items.", exception.Message);
+        }
+
+        [Theory]
+        [InlineData(0)]
+        [InlineData(-3)]
+        public void Throw_When_Price_Is_Null_Or_Negative(int price)
+        {
+            var sut = new Receipt();
+            void RecordLineWithInvalidPrice() => sut.RecordLine("eggs", 1, price);
+            var exception = Assert.Throws<InvalidOperationException>(RecordLineWithInvalidPrice);
+            Assert.Contains($"You can't add line with {price} price.", exception.Message);
         }
 
         [Theory]

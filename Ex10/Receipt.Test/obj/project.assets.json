@@ -5783,11 +5783,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex10\\Receipt.Test\\ReceiptTests.csproj",
+      "projectUniqueName": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex10\\Receipt.Test\\ReceiptTests.csproj",
       "projectName": "ReceiptTests",
-      "projectPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex10\\Receipt.Test\\ReceiptTests.csproj",
+      "projectPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex10\\Receipt.Test\\ReceiptTests.csproj",
       "packagesPath": "C:\\Users\\mrcn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex10\\Receipt.Test\\obj\\",
+      "outputPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex10\\Receipt.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5807,9 +5807,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex10\\Ex10\\Ex10.csproj": {
-              "projectPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex10\\Ex10\\Ex10.csproj"
+            "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex10\\Ex10\\Ex10.csproj": {
+              "projectPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex10\\Ex10\\Ex10.csproj"
             }
           }
         }
@@ -5822,6 +5823,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "FluentAssertions": {
             "target": "Package",
@@ -5863,7 +5865,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
