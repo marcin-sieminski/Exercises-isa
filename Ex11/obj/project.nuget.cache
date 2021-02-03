@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DWwrK5Be6qzfGf2b/ooQorffyI9TCkQuNArJS2TQUclLJoZpicpuMJUvCMbMO0BDT0SNIYMGcQEvvZnTr4/8Lg==",
+  "dgSpecHash": "cdglCy2C54tGBTIDzPEQtjOb7a78q2jcyg8Rb13D8kER8fUkT0cjl18dW7ny1OiOauTkyHr9Q8lSV/1MGOlaHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex11\\Ex11.csproj",
+  "projectFilePath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex11\\Ex11.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrcn\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
     "C:\\Users\\mrcn\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",

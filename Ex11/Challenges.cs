@@ -17,13 +17,9 @@ namespace Ex11
             var numbers = n
                 .Split(';')
                 .Select(x => x.Split('-'))
-                .Flatten()
-                .Select(x =>int.Parse(x.ToString() ?? string.Empty))
-                .Batch(2)
-                .Select(x => x.ToArray())
-                .Select(x => MoreEnumerable.Sequence(x[0], x[1]))
-                .Flatten()
-             ;
+                .Select(x => x.Select(int.Parse))
+                .Select(x => MoreEnumerable.Sequence(x.Min(), x.Max()))
+                .Flatten();
 
             numbers.Should().Equal(1, 2, 3, 4, 5, 15, 16, 17, 25, 26, 27, 28, 29, 30);
         }
@@ -39,8 +35,7 @@ namespace Ex11
             //TODO: Get the best players (names and score)
 
             var bestPlayers = names
-                .Zip(scores)
-                .Select(x => new { name = x.First, score = x.Second})
+                .Zip(scores, (x, y) => new {name = x, score = y})
                 .Where(x => x.score == scores.Max())
                 .OrderBy(x => x.name);
 
@@ -57,7 +52,6 @@ namespace Ex11
 
             var studentGroups = students
                 .Batch(4)
-                .ToArray()
                 .Select((x, index) => new {groupNumber = index + 1, groupMembers = x});
 
             studentGroups.Should().BeEquivalentTo(
