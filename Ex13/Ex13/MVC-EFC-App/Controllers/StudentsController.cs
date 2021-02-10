@@ -19,7 +19,11 @@ namespace MVC_EFC_App.Controllers
 
         public IActionResult Index()
         {
-            return View(_studentRepository.GetStudents());
+            return View(new StudentsViewModel()
+            {
+                Students = _studentRepository.GetStudents(),
+                Teachers = _teacherRepository.GetTeachers()
+            });
         }
 
         public IActionResult Details(int? id)
@@ -47,7 +51,7 @@ namespace MVC_EFC_App.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create([Bind("Id,FirstName,LastName,BirthDate,Class,TeacherId")] Student student)
+        public IActionResult Create([Bind("Id,FirstName,LastName,Birthdate,Class,TeacherId")] Student student)
         {
             if (ModelState.IsValid)
             {
@@ -77,7 +81,7 @@ namespace MVC_EFC_App.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id, [Bind("Id,FirstName,LastName,BirthDate,Class,TeacherId")] Student student)
+        public IActionResult Edit(int id, [Bind("Id,FirstName,LastName,Birthdate,Class,TeacherId")] Student student)
         {
             if (id != student.Id)
             {

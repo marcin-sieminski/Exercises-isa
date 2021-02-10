@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mI27RzonhIftNb05gmuo/tHiIZ8KwDBcQRTeVZ+bcaTGTiQIHDfChMSMGjIzWdYxWT8MKrVybkXDDHT/GuF7Og==",
+  "dgSpecHash": "Y+l59ROJO8nNgzvRiys8bz+kGE7JZtcewv1FXKiuB4mMLgDy868RfCpyHd474VMLeTVp7tTtBQjQUZwCyeKJ0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex13\\Ex13\\MVC-EFC-App\\MVC-EFC-App.csproj",
+  "projectFilePath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex13\\Ex13\\MVC-EFC-App\\MVC-EFC-App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrcn\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\mrcn\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.9\\microsoft.aspnetcore.mvc.razor.extensions.3.1.9.nupkg.sha512",

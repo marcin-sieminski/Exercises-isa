@@ -19,7 +19,7 @@ namespace MVC_EFC_App.DAL
 
         public IEnumerable<Grade> GetGrades()
         {
-            return _context.Grades.Include(x => x.Student).ToList();;
+            return _context.Grades.Include(x => x.Student).ToList();
         }
 
         public Grade GetGradeById(int? id)
