@@ -40,3 +40,45 @@ C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex14\Ex14solution\A
 C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\App.API.csproj.CoreCompileInputs.cache
 C:\Users\mrcn\OneDrive\Documents\C# dev isa\jcszr1-homeworks\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\App.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\App.API.exe
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\App.API.deps.json
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\App.API.runtimeconfig.json
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\App.API.runtimeconfig.dev.json
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\App.API.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\App.API.pdb
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\App.API.csprojAssemblyReference.cache
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\App.API.AssemblyInfoInputs.cache
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\App.API.AssemblyInfo.cs
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\App.API.csproj.CoreCompileInputs.cache
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\App.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\staticwebassets\App.API.StaticWebAssets.Manifest.cache
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\staticwebassets\App.API.StaticWebAssets.xml
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\App.API.styles.css
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\App.API.RazorTargetAssemblyInfo.cache
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\App.API.csproj.CopyComplete
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\App.API.dll
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\App.API.pdb
+C:\Users\mrcn\OneDrive\Documents\C#\Exercises-isa\Ex14\Ex14solution\App.API\obj\Debug\netcoreapp3.1\App.API.genruntimeconfig.cache

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2k93wn/ptF5Os17N0aFM8/fXyZPQHDQVK3MsF+Uk8w08bf5hqBQule/Uc0l4INx+jF7NAvlwsTpj+6kLdktRxA==",
+  "dgSpecHash": "709HCwQ7oEP2sKxQ+paRZrDfLQO7Yh63xrzU3xv0eAM2LPw+96CzaAi+HX0ZVdll5tIqoDW5zfkxcAmJcpntGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex14\\Ex14solution\\App.API\\App.API.csproj",
+  "projectFilePath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex14\\Ex14solution\\App.API\\App.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrcn\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\mrcn\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",

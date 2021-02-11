@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex14\\Ex14solution\\App.API\\App.API.csproj": {}
+    "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex14\\Ex14solution\\App.API\\App.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex14\\Ex14solution\\App.API\\App.API.csproj": {
+    "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex14\\Ex14solution\\App.API\\App.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex14\\Ex14solution\\App.API\\App.API.csproj",
+        "projectUniqueName": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex14\\Ex14solution\\App.API\\App.API.csproj",
         "projectName": "App.API",
-        "projectPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex14\\Ex14solution\\App.API\\App.API.csproj",
+        "projectPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex14\\Ex14solution\\App.API\\App.API.csproj",
         "packagesPath": "C:\\Users\\mrcn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C# dev isa\\jcszr1-homeworks\\Ex14\\Ex14solution\\App.API\\obj\\",
+        "outputPath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex14\\Ex14solution\\App.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -31,6 +31,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Serilog": {
               "target": "Package",
@@ -74,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
