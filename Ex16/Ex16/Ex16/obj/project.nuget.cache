@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qx9yzrOOZgLf9spepEKQ4l0nrxG3s2TAudnjtQw1M5YQ9q0KqhRb7u2bNXp3U6DGjz53D+UdbVnSDKjO4Qv94A==",
+  "dgSpecHash": "9IRm6DHXzG/eVvtcYBPxRlWtZRertGR2b1ka2F02mjd23CHh1pRXbqdv7vbdQ7wu6OVfudivvlOxc8Erji79CQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\ExercisesISA\\Ex16\\Ex16\\Ex16\\Ex16.csproj",
+  "projectFilePath": "C:\\Users\\mrcn\\OneDrive\\Documents\\C#\\Exercises-isa\\Ex16\\Ex16\\Ex16\\Ex16.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrcn\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\mrcn\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
