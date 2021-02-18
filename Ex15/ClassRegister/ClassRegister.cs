@@ -1,25 +1,26 @@
-﻿using System.Collections.Generic;
+﻿using ClassRegister.Models;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace ClassRegister
 {
     public class ClassRegister
     {
-        private readonly List<Student> _students = new List<Student>();
-        private readonly List<Teacher> _teachers = new List<Teacher>();
-        private readonly List<Course> _courses = new List<Course>();
-        private const double GOOD_AVERAGE = 4.75;
+        private readonly List<Student> _students = new();
+        private readonly List<Teacher> _teachers = new();
+        private readonly List<Course> _courses = new();
+        private const double GoodAverage = 4.75;
 
         public void AddStudent()
         {
-            var id = Helpers.InputPersonalData(out var name, out var surname, out var street, out var number, out var zipcode, out var email);
+            var id = Helpers.Helpers.InputPersonalData(out var name, out var surname, out var street, out var number, out var zipcode, out var email);
 
             _students.Add(new Student
             {
                 Id = id,
                 Name = name,
                 Surname = surname,
-                Address = new Address()
+                Address = new Address
                 {
                     Street = street,
                     Number = number,
@@ -32,7 +33,7 @@ namespace ClassRegister
 
         public void AddTeacher()
         {
-            var id = Helpers.InputPersonalData(out var name, out var surname, out var street, out var number, out var zipcode, out var email);
+            var id = Helpers.Helpers.InputPersonalData(out var name, out var surname, out var street, out var number, out var zipcode, out var email);
 
             _teachers.Add(new Teacher
             {
@@ -51,7 +52,7 @@ namespace ClassRegister
 
         public void AddCourse()
         {
-            var courseId = Helpers.InputCourseData(out var name, out var teacherId, out var studentId);
+            var courseId = Helpers.Helpers.InputCourseData(out var name, out var teacherId, out var studentId);
 
             _courses.Add(new Course
             {
@@ -70,7 +71,7 @@ namespace ClassRegister
 
         public IEnumerable<Student> GetStudentsWithBestAverage()
         {
-            return (from student in _students from course in student.Courses let studentAverage = course.Marks.Average() where studentAverage > GOOD_AVERAGE select student).ToList();
+            return (from student in _students from course in student.Courses let studentAverage = course.Marks.Average() where studentAverage > GoodAverage select student).ToList();
         }
 
         public IEnumerable<Student> GetAllStudents()

@@ -34,7 +34,7 @@ namespace ClassRegister
                         {
                             Console.WriteLine(student.Name);
                         }
-                        Helpers.WaitUntilKeyPressed();
+                        Helpers.Helpers.WaitUntilKeyPressed();
                         break;
                     case 4:
                         Console.Clear();
@@ -43,7 +43,7 @@ namespace ClassRegister
                         {
                             Console.WriteLine(student.Name);
                         }
-                        Helpers.WaitUntilKeyPressed();
+                        Helpers.Helpers.WaitUntilKeyPressed();
                         break;
                     case 5:
                         Console.Clear();
@@ -52,7 +52,7 @@ namespace ClassRegister
                         Console.WriteLine("Mark: ");
                         var mark = int.Parse(Console.ReadLine() ?? string.Empty);
                         classRegister.AddMark(courseId, mark);
-                        Helpers.WaitUntilKeyPressed();
+                        Helpers.Helpers.WaitUntilKeyPressed();
                         break;
                     case 6:
                         break;

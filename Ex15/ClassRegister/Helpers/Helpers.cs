@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassRegister
+namespace ClassRegister.Helpers
 {
     public static class Helpers
     {

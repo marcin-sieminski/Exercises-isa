@@ -1,4 +1,4 @@
-﻿namespace ClassRegister
+﻿namespace ClassRegister.Models
 {
     public class Address
     {
